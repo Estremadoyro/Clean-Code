@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:3:8: object Matchers is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean matchers?[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Matchers;[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:5:8: not found: object matchers[0m
+[0m[[0m[31merror[0m] [0m[0mimport matchers.should;[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:7:47: not found: value should[0m
+[0m[[0m[31merror[0m] [0m[0mclass EjercicioTests extends AnyFlatSpec with should.Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:10:29: value shouldBe is not a member of Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m    Login.checkLogin(user3) shouldBe true;[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:15:29: value shouldBe is not a member of Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m    Login.checkLogin(user1) shouldBe false;[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/test/scala/Tests.scala:16:29: value shouldBe is not a member of Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m    Login.checkLogin(user2) shouldBe false;[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

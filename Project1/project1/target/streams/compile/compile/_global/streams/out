@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame;[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.util.SizeEstimator;[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.desc;[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:7:17: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0mval DataScheme: DataFrame = spark.read.parquet("processed");[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:7:29: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0mval DataScheme: DataFrame = spark.read.parquet("processed");[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:8:42: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0mclass EvaluateDataFrame (val dataScheme: DataFrame,[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/leonardo/Desktop/Code/Practice/Scala/Ejercicio Clean Code/Project1/project1/src/main/scala/Ejercicio2.scala:22:45: not found: value SizeEstimator[0m
+[0m[[0m[31merror[0m] [0m[0m        val dfSizeEstimatorMb: Float = toMb(SizeEstimator.estimate(df.dataScheme))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

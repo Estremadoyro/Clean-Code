@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(tests, Some(2261feb0-cd31-42cf-be36-07c6d8025be0), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: tests (similar: tasks, set, last)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: tests[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: tests (similar: test, testOnly, testOptions)[0m
+[0m[[0m[31merror[0m] [0m[0mtests[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
